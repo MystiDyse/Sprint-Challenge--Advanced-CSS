@@ -34,13 +34,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+* Adaptive websites change based on fixed points of width. at 600px there will be one style and it will not change or conform(giving you the horizontal scroll bar of doom) untill it reaches the next fixed point.
+
+* responsive webistes allow for styles to change along with the users device even if not exact. it allows for a range of changes in between each max or min width breakpoint. it will adjust with the screen so that all the content fits in the screen size of the user.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+* Mobile first means the base style starts at the smaller mobile width/ resolution and as it increases to the next resolution it adds the changes of the next styles to the base and so on; whereas, desktop view starts at the largest size width and then adds the style changes of the smaller resolutions as the screen size decreases.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+* It sets the default px of the sceen to something more manageable. most seen is 16px as the default and since trying to figure out px's for a responsive website can be difficult to calculate it is easier to set it to 10px using the 62.5% and then on all other styling can be set to rem which will multiply itself to the 10px. much easier to work with.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+* Preproccesing is like the shorcut keys of a pc to CSS. they minimize code length, reduce errors, and allow you to do lots of code in a short amount of time. It allows us to make base level changes and designs in a short amount of time so that you can focus your time on more in depth concepts.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+* Mixins are my favorite. Like a said previously they are truly shortcut keys. I can creat mixins that I now I will use or need and simply drop and call those mixins all over my code. in one line.
+* Right now i think media queries give me the most trouble simply because even though I understand the concept, incorporating code and getting it to work is another thing. But with lots of pratice and repetition I will master it.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
