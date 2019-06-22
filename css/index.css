@@ -240,6 +240,28 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+.home .walk .walk-text .btn {
+  background-color: #22283A;
+  color: #F6F7F8;
+  padding: 8px 15px;
+  text-align: center;
+  font-size: large;
+  border-radius: 8px;
+  -webkit-transition-duration: 0.3s;
+  width: 30%;
+  cursor: pointer;
+  box-shadow: 0 3px #999;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: #F6F7F8;
+  color: #22283A;
+  box-shadow: black;
+}
+.home .walk .walk-text .btn:active {
+  background-color: #ffffff;
+  box-shadow: 0 1px #070707;
+  transform: translateY(3px);
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;

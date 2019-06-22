@@ -62,6 +62,19 @@
       }
 
       .btn {
+        .button(@btn-bg, @btn-font);
+        cursor: pointer;
+        box-shadow: 0 3px #999;
+      }
+      .btn:hover{
+        background-color: @btn-font;
+        color: @btn-bg;
+        box-shadow: black;
+      }
+      .btn:active{
+        background-color: lighten(@btn-font, 15%);
+        box-shadow: 0 1px rgb(7, 7, 7);
+        transform: translateY(3px);
       }
     }
 

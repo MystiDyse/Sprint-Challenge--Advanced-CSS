@@ -18,3 +18,18 @@
     padding-bottom: 10px;
     padding-top: 10px;
 }
+
+// parametric mixin
+.button(@btn-bg, @btn-font){
+    background-color: @btn-bg;
+    color:@btn-font;
+    padding: 8px 15px;
+    text-align: center;
+    font-size: large;
+    border-radius: 8px;
+    -webkit-transition-duration: .3s;
+    width: 30%;
+    
+
+
+}
