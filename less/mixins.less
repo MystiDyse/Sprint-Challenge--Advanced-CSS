@@ -1,1 +1,35 @@
 // Mixins Here
+.center(){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.EvenNav(){
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.title(){
+    font-size: xx-large;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+// parametric mixin
+.button(@btn-bg, @btn-font){
+    background-color: @btn-bg;
+    color:@btn-font;
+    padding: 8px 15px;
+    text-align: center;
+    font-size: large;
+    border-radius: 8px;
+    -webkit-transition-duration: .3s;
+    width: 30%;
+    
+
+
+}

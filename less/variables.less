@@ -1,10 +1,11 @@
 // Variables
+@btn-bg: @btn-bg-color;
+@btn-font:@porcelain;
 
 // Color pointers
 @nav-bg: @wild-sand;
 @nav-font: @river-bend;
 @nav-border: @sea-shell;
-
 @header-font-color: @ebony-clay;
 @main-font-color: @shuttle-gray;
 @main-border-color: @border-real;
@@ -24,3 +25,19 @@
 @border-real: #dee2e6;
 
 // Mobile var
+@phone: (max-width: 500px);
+
+// animation
+@keyframes bounceIn {
+    0%{
+        transform: scale(0.1);
+        opacity: 0;
+    }
+    60%{
+        transform: scale(1.2);
+        opacity: 1;
+    }
+    100%{
+        transform:scale(1);
+    }
+}
